@@ -1,0 +1,42 @@
+.horoscopos {
+    background-color: aliceblue;
+    padding: 20px 10px;
+    color: black;
+    border: black 1px solid;
+    box-shadow: 0 0 15px 0 red;
+    border-radius: 10px;
+    width: 900px;
+    height: fit-content;
+}
+
+.horoscopos form {
+    display: block;
+    width: 100%;
+}
+
+.form-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-p label {
+    margin-right: 10px;
+}
+
+.horoscopos button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.horoscopos img {
+    height: 100px;
+    width: 100px;
+}
